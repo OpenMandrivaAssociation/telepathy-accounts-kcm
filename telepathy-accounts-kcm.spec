@@ -13,6 +13,7 @@ Url:		https://projects.kde.org/projects/playground/network/telepathy/telepathy-a
 Source0:	telepathy-accounts-kcm-%{version}-%{git}.tar.xz
 License:	GPLv2+
 Group:		Graphical desktop/KDE
+BuildRequires:	make
 BuildRequires:	kdelibs4-devel
 BuildRequires:	telepathy-qt4-devel >= 0.1.8
 Obsoletes:      telepathy-kde-accounts-kcm-plugins
